@@ -1,0 +1,39 @@
+{
+  "Version": "2",
+  "ReleaseNotes": "Test",
+  "Servers": [
+
+    {
+      "Name": "Server",
+      "FLAG": "ze",
+      "ServerIP": "uk01.sshocean.net",
+      "ServerPort": "80",
+      "CDN": "uk2.sshws.me",
+      "CDNPort": "443",
+      "SSLPort": "443",
+      "ProxyIP": "154.53.36.255",
+      "ProxyPort": "80",
+      "ServerUser": "sshocean-kennt",
+      "ServerPass": "kennt",
+      "sInfo": "INTERNET NEEDED TO LOAD",
+      "servermessage": ""
+    }
+  ],
+  "Networks": [
+    {
+      "Name": "DEFAULT",
+      "Payload": "GET / HTTP/1.1[crlf]Host: uk2.sshws.me[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "whatsapp.net",
+      "pInfo": "INTERNET NEEDED TO LOAD",
+      "Slowchave": "",
+      "Nameserver": "",
+      "Slowdns": "",
+      "isSSL": "false",
+      "isInject": "false",
+      "isPayloadSSL": "true",
+      "isDirect": "false",
+      "isSSLRp": "false",
+      "isSlow": "false"
+    }
+  ]
+}
