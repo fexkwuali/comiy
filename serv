@@ -1,5 +1,5 @@
 {
-  "Version": "1.1",
+  "Version": "1.2",
   "ReleaseNotes": "sss",
   "ReleaseNotes1": "ssss",
   "Servers": [
@@ -13,8 +13,8 @@
       "cfrPayload": "",
       "cfrsni": "",
       "ProxyPort": "80",
-      "ServerUser": "test",
-      "ServerPass": "test",
+      "ServerUser": "KryptVPN",
+      "ServerPass": "Xin_Ridicloak",
       "cfrUser": "test",
       "cfrPass": "test",
       "udpIP": "165.232.87.248",
